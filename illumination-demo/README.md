@@ -2,9 +2,9 @@
 
 Small deterministic assets for the ARTEMIS illumination demo client:
 
-- `grey_cube`: a closed, matte-grey cube with embedded geometry and no textures.
-- `black_cube`: the same closed cube with a matte-black material.
-- `ies_1` and `ies_2`: uniform synthetic profiles differing only by candela multiplier 1/2.
+- `grey_cube.glb`: a closed, matte-grey cube with embedded geometry and no textures.
+- `black_cube.glb`: the same closed cube with a matte-black material.
+- `ies_1.ies` and `ies_2.ies`: uniform synthetic profiles differing only by candela multiplier 1/2.
 
 The client assembles these cubes into a receiver, test booth and shadow blocker.
 The IES profiles use `TILT=NONE` and 1000-candela samples.
@@ -22,4 +22,4 @@ To regenerate the assets and manifest, run from the repository root:
 node illumination-demo/generate.cjs
 ```
 
-The generator uses only Node built-ins. Identical inputs produce identical hashed files.
+The generator uses only Node built-ins. Identical inputs produce identical fixture bytes and SHA-256 checksums.

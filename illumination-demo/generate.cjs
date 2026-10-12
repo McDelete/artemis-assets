@@ -180,7 +180,7 @@ async function writeIlluminationDemoFixtures(directory) {
     await mkdir(directory, { recursive: true });
     for (const [key, definition] of Object.entries(buildFixtureDefinitions())) {
         const sha256 = createHash('sha256').update(definition.bytes).digest('hex');
-        const file = `${key}.${sha256}.${definition.extension}`;
+        const file = `${key}.${definition.extension}`;
         await writeFile(path.join(directory, file), definition.bytes);
         manifest.fixtures[key] = {
             file,
