@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "fixtures": {
+    "grey_cube": {
+      "file": "grey_cube.963a0f712b072b2b59d64ecaf46407f52cb8b943f04d8784fdd9a983373fe91d.glb",
+      "sha256": "963a0f712b072b2b59d64ecaf46407f52cb8b943f04d8784fdd9a983373fe91d",
+      "size": 1572,
+      "contentType": "model/gltf-binary"
+    },
+    "black_cube": {
+      "file": "black_cube.4625471e596889c09d4085d5caaca540b14febde325939fd7fdd7cadaf0c4d3d.glb",
+      "sha256": "4625471e596889c09d4085d5caaca540b14febde325939fd7fdd7cadaf0c4d3d",
+      "size": 1568,
+      "contentType": "model/gltf-binary"
+    },
+    "ies_1": {
+      "file": "ies_1.2291934a26a2b8b6986bd9a15843c8ab420d6122274713f2cc88d7c761880a6e.ies",
+      "sha256": "2291934a26a2b8b6986bd9a15843c8ab420d6122274713f2cc88d7c761880a6e",
+      "size": 100,
+      "contentType": "text/plain"
+    },
+    "ies_2": {
+      "file": "ies_2.acf66500ba8ea7304ac353e6958805b6bfbcea7ae5b0ac985fa91d1352da9daa.ies",
+      "sha256": "acf66500ba8ea7304ac353e6958805b6bfbcea7ae5b0ac985fa91d1352da9daa",
+      "size": 100,
+      "contentType": "text/plain"
+    }
+  }
+}
