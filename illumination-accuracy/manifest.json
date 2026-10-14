@@ -1,0 +1,726 @@
+{
+    "version": 1,
+    "generator": "ARTEMIS measurement reference fixtures v1",
+    "quantityBasis": "linear_scene_RGB",
+    "sourceGeometryToService": "(x,y,z) -> (x,z,y), through existing GLB import basis",
+    "photometricStatus": "Synthetic analytic references; no external physical calibration certificate.",
+    "fixtures": {
+        "black_enclosure": {
+            "file": "black_enclosure.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                0,
+                0,
+                0
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "fe9e2d00bff37826a9940f9a2556217ff5a8f6f2b7807c77d04fefb7feb91aea",
+            "size": 4500
+        },
+        "uniform_enclosure_0": {
+            "file": "uniform_enclosure_0.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                0,
+                0,
+                0
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "6b97c2c01bbbb47ec9838a23374e94a8a7df425978b4661461a2e9449cf18197",
+            "size": 4508
+        },
+        "uniform_enclosure_0_01": {
+            "file": "uniform_enclosure_0_01.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                0.01,
+                0.01,
+                0.01
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "1ac3029154d4e37613640693c8e23379e37f42b85834bc6a82e97b18651cc807",
+            "size": 4520
+        },
+        "uniform_enclosure_1": {
+            "file": "uniform_enclosure_1.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                1,
+                1,
+                1
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "f4f6dad5b1e3432cf91fe659610d21245791b36445566d1e640acdaa431082af",
+            "size": 4508
+        },
+        "uniform_enclosure_10": {
+            "file": "uniform_enclosure_10.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                10,
+                10,
+                10
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "e9dcd9d2c40fd3d1d7457143d70a26847088c23608139b4ff031de3baef047a0",
+            "size": 4508
+        },
+        "uniform_enclosure_100": {
+            "file": "uniform_enclosure_100.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                100,
+                100,
+                100
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "340bbe5a31351e98e0c2185fee7ad3854d333bdc0c4557737017de272ea2c401",
+            "size": 4512
+        },
+        "uniform_enclosure_1000": {
+            "file": "uniform_enclosure_1000.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                1000,
+                1000,
+                1000
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "9ba12d07b92a5f4fbbee5ffb8f78ff5adf2d0c3a067209ba7867df668ef71cdd",
+            "size": 4516
+        },
+        "uniform_enclosure_10000": {
+            "file": "uniform_enclosure_10000.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                10000,
+                10000,
+                10000
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "70c51bf6e75181240b81a378e296f518f45411ede0c117ed3b8f9caabd5bc783",
+            "size": 4520
+        },
+        "uniform_enclosure_rgb": {
+            "file": "uniform_enclosure_rgb.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "uniform_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "radiance": [
+                1,
+                3,
+                9
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "sha256": "2c7df0488ce23ca4a5edee299a8b1c889bb1aa3d570b2af0298cd73813f74e6e",
+            "size": 4544
+        },
+        "emissive_disk": {
+            "file": "emissive_disk.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "emissive_disk",
+            "radiance": [
+                100,
+                100,
+                100
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "geometry": {
+                "kind": "regular_polygon_disk",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "sourceNormal": [
+                    0,
+                    0,
+                    1
+                ],
+                "normalService": [
+                    0,
+                    1,
+                    0
+                ],
+                "radius": 1,
+                "segments": 1024,
+                "triangles": 1024,
+                "polygonArea": 3.1415729403670913,
+                "circleArea": 3.141592653589793,
+                "circleAreaRelativeDifference": 0.00000627491367455324
+            },
+            "sha256": "40feaebc25399f4d244bd989c623b1921cf5fbb9057601f47ea3ba7633e5285c",
+            "size": 32068
+        },
+        "lambert_receiver": {
+            "file": "lambert_receiver.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "lambert_receiver",
+            "reflectance": [
+                0.18,
+                0.18,
+                0.18
+            ],
+            "material": {
+                "baseReflectance": [
+                    0.18,
+                    0.18,
+                    0.18
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "geometry": {
+                "kind": "plane",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "sourceNormal": [
+                    0,
+                    0,
+                    1
+                ],
+                "normalService": [
+                    0,
+                    1,
+                    0
+                ],
+                "fullSizeService": [
+                    1,
+                    0,
+                    1
+                ],
+                "area": 1,
+                "triangles": 2
+            },
+            "sha256": "3fc69de7300199469eec7825a0dbbb924b34df2b20fa27bb539d14eff9a88c63",
+            "size": 1428
+        },
+        "black_block": {
+            "file": "black_block.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "absorbing_block",
+            "reflectance": [
+                0,
+                0,
+                0
+            ],
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "geometry": {
+                "kind": "cube",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    1,
+                    1,
+                    1
+                ],
+                "triangles": 12
+            },
+            "sha256": "6f7329ef568d6df4f8294d8876c314263cb99d5c037549b8e8b8373fffbb6a89",
+            "size": 4564
+        },
+        "colored_enclosure": {
+            "file": "colored_enclosure.glb",
+            "contentType": "model/gltf-binary",
+            "kind": "colored_enclosure",
+            "geometry": {
+                "kind": "enclosure",
+                "units": "metres",
+                "centreService": [
+                    0,
+                    0,
+                    0
+                ],
+                "fullSizeService": [
+                    10,
+                    10,
+                    10
+                ],
+                "innerFaceDistance": 5,
+                "triangles": 12,
+                "faceSolidAngleFractionAtCentre": 0.16666666666666666
+            },
+            "material": {
+                "baseReflectance": [
+                    0,
+                    0,
+                    0
+                ],
+                "metallic": 0,
+                "roughness": 1,
+                "specular": 0,
+                "alphaMode": "OPAQUE",
+                "doubleSided": true,
+                "emissionEncoding": "emissiveFactor * KHR_materials_emissive_strength.emissiveStrength"
+            },
+            "faces": [
+                {
+                    "locationService": [
+                        5,
+                        0,
+                        0
+                    ],
+                    "radiance": [
+                        12,
+                        0,
+                        0
+                    ],
+                    "solidAngleFractionAtCentre": 0.16666666666666666
+                },
+                {
+                    "locationService": [
+                        -5,
+                        0,
+                        0
+                    ],
+                    "radiance": [
+                        0,
+                        6,
+                        0
+                    ],
+                    "solidAngleFractionAtCentre": 0.16666666666666666
+                }
+            ],
+            "remainingFaceRadiance": [
+                0,
+                0,
+                0
+            ],
+            "sha256": "fe0fa07995bdeb69569c1e9eee2ba354f3c22175b1d6c224314cb9fb70807735",
+            "size": 5144
+        },
+        "ies_uniform_10": {
+            "file": "ies_uniform_10.ies",
+            "contentType": "text/plain",
+            "kind": "ies_profile",
+            "ies": {
+                "standard": "IESNA:LM-63-2002",
+                "photometricType": "C",
+                "unitCode": 2,
+                "absolutePhotometry": true,
+                "lampCount": 1,
+                "lumensPerLamp": -1,
+                "candelaMultiplier": 1,
+                "tilt": "NONE",
+                "verticalAngles": [
+                    0,
+                    90,
+                    180
+                ],
+                "horizontalAngles": [
+                    0
+                ],
+                "candelaSamples": [
+                    [
+                        10,
+                        10,
+                        10
+                    ]
+                ],
+                "interpolation": "linear in physical angle",
+                "peakCandela": 10,
+                "nominalLuminousFlux": 125.66370614359172,
+                "nativeDefaultAxisService": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "sha256": "b482b16eeb1c87cdc22321e2c38332b7c4610bef9fd636a9877ccfdb33c6df39",
+            "size": 128
+        },
+        "ies_uniform_20": {
+            "file": "ies_uniform_20.ies",
+            "contentType": "text/plain",
+            "kind": "ies_profile",
+            "ies": {
+                "standard": "IESNA:LM-63-2002",
+                "photometricType": "C",
+                "unitCode": 2,
+                "absolutePhotometry": true,
+                "lampCount": 1,
+                "lumensPerLamp": -1,
+                "candelaMultiplier": 1,
+                "tilt": "NONE",
+                "verticalAngles": [
+                    0,
+                    90,
+                    180
+                ],
+                "horizontalAngles": [
+                    0
+                ],
+                "candelaSamples": [
+                    [
+                        20,
+                        20,
+                        20
+                    ]
+                ],
+                "interpolation": "linear in physical angle",
+                "peakCandela": 20,
+                "nominalLuminousFlux": 251.32741228718345,
+                "nativeDefaultAxisService": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "sha256": "5adcf9c4b768c5a0609fadfa7bd802edde55ba3c8207d99e957e1153bffdd39d",
+            "size": 128
+        },
+        "ies_anisotropic_10": {
+            "file": "ies_anisotropic_10.ies",
+            "contentType": "text/plain",
+            "kind": "ies_profile",
+            "ies": {
+                "standard": "IESNA:LM-63-2002",
+                "photometricType": "C",
+                "unitCode": 2,
+                "absolutePhotometry": true,
+                "lampCount": 1,
+                "lumensPerLamp": -1,
+                "candelaMultiplier": 1,
+                "tilt": "NONE",
+                "verticalAngles": [
+                    0,
+                    30,
+                    60,
+                    90,
+                    120,
+                    150,
+                    180
+                ],
+                "horizontalAngles": [
+                    0
+                ],
+                "candelaSamples": [
+                    [
+                        10,
+                        9,
+                        7,
+                        4,
+                        2,
+                        1,
+                        0
+                    ]
+                ],
+                "interpolation": "linear in physical angle",
+                "peakCandela": 10,
+                "nominalLuminousFlux": 56.831853071795855,
+                "nativeDefaultAxisService": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "sha256": "e4a2543847f470995438fb1c0fcada0ec618db174dbddece34dfa0b50354358f",
+            "size": 148
+        }
+    }
+}
